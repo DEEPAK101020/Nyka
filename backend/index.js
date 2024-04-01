@@ -44,6 +44,7 @@ app.get('/google/auth/callback', async (req, res) => {
 
         // You can use userData to retrieve user details
         console.log(userData);
+        
         // Redirect user or do something else with user data
         res.send(userData);
     } catch (error) {
